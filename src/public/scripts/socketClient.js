@@ -26,7 +26,6 @@ socketClient.on("products", (productos) => {
         <div id="product${producto.id}">
         <h4>${producto.title}</h4>
         <img
-        src="https://sinteplastconstruccion.com.ar/assets/img/sinteplastconstruccion.com.ar/photos/w300/${producto.thumbnails}"
         alt="foto producto"
                 width="100"
             />
